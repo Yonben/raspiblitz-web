@@ -115,7 +115,7 @@ export const ConnectionCard: FC = () => {
               placement="top"
             >
               <ClipboardCopyIcon
-                className="inline-flex h-6 w-2/12 cursor-pointer justify-self-end"
+                className="inline-flex h-6 w-2/12 cursor-pointer justify-self-end hover:text-blue-500"
                 onClick={copyTor}
               />
             </Tooltip>
@@ -148,7 +148,7 @@ export const ConnectionCard: FC = () => {
               placement="top"
             >
               <ClipboardCopyIcon
-                className="inline-flex h-6 w-2/12 cursor-pointer justify-self-end"
+                className="inline-flex h-6 w-2/12 cursor-pointer justify-self-end hover:text-blue-500"
                 onClick={copySsh}
               />
             </Tooltip>
@@ -184,13 +184,13 @@ export const ConnectionCard: FC = () => {
                 placement="top"
               >
                 <ClipboardCopyIcon
-                  className="inline-flex h-6 w-2/12 cursor-pointer justify-self-end"
+                  className="inline-flex h-6 w-2/12 cursor-pointer justify-self-end hover:text-blue-500"
                   onClick={copyNodeId}
                 />
               </Tooltip>
               <Tooltip overlay={<div>{t("home.show_qr")}</div>} placement="top">
                 <QrcodeIcon
-                  className="inline-flex h-6 w-2/12 cursor-pointer justify-self-end"
+                  className="inline-flex h-6 w-2/12 cursor-pointer justify-self-end hover:text-blue-500"
                   onClick={showModalHandler}
                 />
               </Tooltip>

@@ -58,7 +58,7 @@ export const OnchainDetails: FC<Props> = ({ details }) => {
           </p>
           <div>
             <ClipboardCopyIcon
-              className="h-5 w-5 hover:text-blue-500"
+              className="h-5 w-5 cursor-pointer hover:text-blue-500"
               onClick={copyId}
             />
           </div>
